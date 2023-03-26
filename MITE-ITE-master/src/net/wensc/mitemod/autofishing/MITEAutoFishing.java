@@ -9,7 +9,7 @@ import net.xiaoyu233.fml.classloading.Mod;
 import net.xiaoyu233.fml.config.InjectionConfig;
 import org.spongepowered.asm.mixin.MixinEnvironment;
 
-@Mod(MixinEnvironment.Side.SERVER)
+@Mod
 public class MITEAutoFishing extends AbstractMod {
 
     public MITEAutoFishing() {
@@ -34,10 +34,10 @@ public class MITEAutoFishing extends AbstractMod {
     }
 
     public int modVerNum() {
-        return 1;
+        return 2;
     }
 
     public String modVerStr() {
-        return "0.0.1";
+        return "0.0.2";
     }
 }
